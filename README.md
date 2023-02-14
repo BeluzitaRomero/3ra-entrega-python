@@ -9,7 +9,7 @@ Creamos una carpeta donde haremos la clonacion del proyecto
 - Luego crearemos nuestro entorno virtual: virtualenv venv
 - Lo activaremos con el comando: venv\Scripts\activate
 
-- Luego instalaremos todo mediante: pip install -r requirements.txt
+- Luego instalaremos todas las dependencias mediante: pip install -r requirements.txt
 - Instalamos django: pip install django
 - Hacemos las migraciones necesarias: py manage.py migrate
 - Levantamos el proyecto con: py manage.py runserver
