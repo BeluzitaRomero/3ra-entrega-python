@@ -14,5 +14,17 @@ Creamos una carpeta donde haremos la clonacion del proyecto
 - Hacemos las migraciones necesarias: py manage.py migrate
 - Levantamos el proyecto con: py manage.py runserver
 
+## Para insertar registros en la base de datos
+
+Cada modelo tiene una template con su formulario para crear un nuevo registro.
+Esto se puede acceder desde la barra de navegacion, seleccionando "usuario", "post" o "comentario" donde se encontrara un boton para cargar nuevos registros.
+En esta mismo template encontramos el buscador de registros, una vez que ya hay alguno insertado en la db.
+
+⚠ Para insertar un registro de "post" tener en cuenta que la imagen debe ser guardada como url.👈
+
+El link "general" de la barra de navegacion, trae todos los post realizados.
+
+Tambien accediendo a /all-users y /all-comments se pueden ver el listado de registros guardados en dichas tablas.
+
 
 
