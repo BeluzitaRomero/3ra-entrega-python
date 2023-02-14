@@ -1,6 +1,6 @@
 # 3ra-entrega-python
 
-## Pasos para poder levantar el projecto
+## Pasos para poder levantar el proyecto
 
 Creamos una carpeta donde haremos la clonacion del proyecto
 - Enviaremos el comando: git clone + url del proyecto
