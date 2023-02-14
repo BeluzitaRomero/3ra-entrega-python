@@ -1,7 +1,6 @@
 {% extends 'AppBlog/home.html' %} {% block title %} Usuario encontrado {%endblock%}
 {% block main_content %}
-<div class="container">
-    <div class="row col-lg-6 col-md-12 mb-3">
+    <div class="row col-lg-6 col-md-12 mb-3 container-main">
       <h2 class="my-5">Busqueda del usuario: {{username}}</h2>
   
       {% if users %}
@@ -22,6 +21,6 @@
   
       {% endif %}
     </div>
-  </div>
+
 
 {%endblock%}
